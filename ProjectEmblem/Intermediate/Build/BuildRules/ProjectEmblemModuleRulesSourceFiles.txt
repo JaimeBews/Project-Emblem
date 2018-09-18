@@ -1,3 +1,0 @@
-D:\College Stuff\Unreal\Project-Emblem\ProjectEmblem\Source\ProjectEmblem\ProjectEmblem.Build.cs
-D:\College Stuff\Unreal\Project-Emblem\ProjectEmblem\Source\ProjectEmblem.Target.cs
-D:\College Stuff\Unreal\Project-Emblem\ProjectEmblem\Source\ProjectEmblemEditor.Target.cs
