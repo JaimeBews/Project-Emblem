@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ProjectEmblem.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{8A100803-1BA6-468B-89A6-D8E8DD0173BE}</UniqueIdentifier>
+			<UniqueIdentifier>{723855D3-25EC-4096-A3DF-84AE82C6705A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ProjectEmblem.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{BEDC871A-156F-4152-B4B4-755A3C5DFF18}</UniqueIdentifier>
+			<UniqueIdentifier>{449D333A-788F-487D-9961-9DF65E6F62EA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,7 +25,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ProjectEmblem">
-			<UniqueIdentifier>{D3DB75A5-7779-4B93-8F8F-3AFFC57D1CFB}</UniqueIdentifier>
+			<UniqueIdentifier>{6DD80615-99F4-49E9-BFBE-F90DD25642FA}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\ProjectEmblem\BaseTile.cpp">
 			<Filter>Source\ProjectEmblem</Filter>
