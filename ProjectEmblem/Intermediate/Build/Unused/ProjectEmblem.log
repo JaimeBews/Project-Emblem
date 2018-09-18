@@ -1,0 +1,17 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for ProjectEmblemEditor (no existing makefile)
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Deleting old hot reload file: "C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Binaries\Win64\UE4Editor-ProjectEmblem-1217.dll".
+  Deleting old hot reload file: "C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Binaries\Win64\UE4Editor-ProjectEmblem-1217.pdb".
+  Building 7 actions with 8 processes...
+    [1/7] SharedPCH.Engine.cpp
+    [2/7] ProjectEmblem.init.gen.cpp
+    [3/7] ProjectEmblem.cpp
+    [4/7] BaseTile.cpp
+    [5/7] BaseTile.gen.cpp
+    [6/7] UE4Editor-ProjectEmblem.lib
+       Creating library C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Intermediate\Build\Win64\UE4Editor\Development\ProjectEmblem\UE4Editor-ProjectEmblem.lib and object C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Intermediate\Build\Win64\UE4Editor\Development\ProjectEmblem\UE4Editor-ProjectEmblem.exp
+    [7/7] UE4Editor-ProjectEmblem.dll
+       Creating library C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Intermediate\Build\Win64\UE4Editor\Development\ProjectEmblem\UE4Editor-ProjectEmblem.suppressed.lib and object C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Intermediate\Build\Win64\UE4Editor\Development\ProjectEmblem\UE4Editor-ProjectEmblem.suppressed.exp
+  Deploying ProjectEmblemEditor Win64 Development...
+  Total build time: 30.64 seconds (Parallel executor: 27.08 seconds)

@@ -409,8 +409,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Intermediate\Build\Win64\ProjectEmblemEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Intermediate\Build\Win64\ProjectEmblemEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Intermediate\Build\Win64\ProjectEmblemEditor\Development\Engine\SharedPCH.Engine.h.pch"
 "C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Intermediate\Build\Win64\UE4Editor\Inc\ProjectEmblem\ProjectEmblem.init.gen.cpp"
-/FI"C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Intermediate\Build\Win64\UE4Editor\Development\ProjectEmblem\Definitions.h"
+/FI"C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Intermediate\Build\Win64\UE4Editor\Development\ProjectEmblem\Definitions.ProjectEmblem.h"
 /Fo"C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Intermediate\Build\Win64\UE4Editor\Development\ProjectEmblem\ProjectEmblem.init.gen.cpp.obj"
 /TP
 /GR-
