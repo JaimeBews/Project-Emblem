@@ -2,7 +2,7 @@ ProjectEmblem/Saved/
 ProjectEmblem/Binaries/
 ProjectEmblem/DerivedDataCache/
 ProjectEmblem/Intermediate/
-ProjectEmblem/ProjectEmblem.sln
+ProjectEmblem/ProjectEmblem*.sln
 # Visual Studio 2015 user specific files
 .vs/
 
