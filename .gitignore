@@ -1,7 +1,7 @@
-ProjectEmblem\Saved\
-ProjectEmblem\Binaries\
-ProjectEmblem\DerivedDataCache\
-ProjectEmblem\Intermediate\
+ProjectEmblem\Saved\**
+ProjectEmblem\Binaries\**
+ProjectEmblem\DerivedDataCache\**
+ProjectEmblem\Intermediate\**
 # Visual Studio 2015 user specific files
 .vs/
 
