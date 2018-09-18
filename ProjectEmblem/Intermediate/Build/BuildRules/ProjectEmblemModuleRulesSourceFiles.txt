@@ -1,3 +1,3 @@
-C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Source\ProjectEmblem\ProjectEmblem.Build.cs
-C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Source\ProjectEmblem.Target.cs
-C:\Users\Jaime\Documents\GitHub\Project-Emblem\ProjectEmblem\Source\ProjectEmblemEditor.Target.cs
+D:\College Stuff\Unreal\Project-Emblem\ProjectEmblem\Source\ProjectEmblem\ProjectEmblem.Build.cs
+D:\College Stuff\Unreal\Project-Emblem\ProjectEmblem\Source\ProjectEmblem.Target.cs
+D:\College Stuff\Unreal\Project-Emblem\ProjectEmblem\Source\ProjectEmblemEditor.Target.cs
