@@ -84,7 +84,11 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
+<<<<<<< HEAD
 		<ProjectGuid>{F9506DCF-B3A9-4DD8-B1D2-3C0DD06A59F8}</ProjectGuid>
+=======
+		<ProjectGuid>{96ACA63C-FE7D-4740-B36E-2D8B764301B5}</ProjectGuid>
+>>>>>>> bc16da2a05ce9913ab959e5abe0e87a5c92dfb82
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>ProjectEmblem</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
