@@ -10,7 +10,9 @@ UCLASS()
 class PROJECTEMBLEM_API ABaseTile : public AActor
 {
 	GENERATED_BODY()
-	
+private:
+	float m_Defense;
+	float m_MovementModifier;
 public:	
 	// Sets default values for this actor's properties
 	ABaseTile();
@@ -22,7 +24,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* mesh;
 
-	
 	
 };
