@@ -10,9 +10,11 @@ UCLASS()
 class PROJECTEMBLEM_API ABaseTile : public AActor
 {
 	GENERATED_BODY()
-private:
-	float m_Defense;
-	float m_MovementModifier;
+protected:
+	UPROPERTY(EditAnywhere)
+		float m_Defense;
+	UPROPERTY(EditAnywhere)
+		float m_MovementModifier;
 public:	
 	// Sets default values for this actor's properties
 	ABaseTile();
