@@ -8,7 +8,7 @@ AUnit::AUnit()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("mesh"));
+	mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("mesh"));
 		RootComponent = mesh;
 }
 
@@ -32,7 +32,18 @@ void AUnit::takeDamage(float damage) {
 	else
 		Destroy();
 }
-
+void AUnit::Heal(float healingAmt) {
+	if (health + healingAmt > maxHealth)
+		health = maxHealth;
+	else
+		health += healingAmt;
+}
+void AUnit::LevelUp() {
+	health = maxHealth;//do something else
+}
+float AUnit::getModifiedDefense(float defModifier) {
+	return defense * defModifier;//calculate how much defense we actually have
+}
 void AUnit::FindPath() {
 	health = health;
 	//do something else

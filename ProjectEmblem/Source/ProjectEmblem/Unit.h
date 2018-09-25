@@ -5,8 +5,6 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 
-#include "BaseTile.h"
-
 #include "Unit.generated.h"
 
 UCLASS()
@@ -35,9 +33,10 @@ protected:
 	UPROPERTY(EditAnywhere)
 		float strength;
 	UPROPERTY(EditAnywhere)
-		int inventory[10];
+		float defense;
 	UPROPERTY(EditAnywhere)
-		ABaseTile *currTile;
+		int inventory[10];
+
 	
 		void takeDamage(float damage);
 	
@@ -49,7 +48,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* mesh;
-	
+		USkeletalMeshComponent* mesh;
+	void Heal(float healingAmt);
+	void LevelUp();
+	float getModifiedDefense(float defModifier);
 	
 };

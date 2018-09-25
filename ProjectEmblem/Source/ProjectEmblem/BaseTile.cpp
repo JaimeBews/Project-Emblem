@@ -25,4 +25,9 @@ void ABaseTile::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
+AUnit* ABaseTile::GetUnit() {
+	return unit;	
+}
+void ABaseTile::SetUnit(AUnit* localUnit) {
+	unit = localUnit;
+}

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Unit.h"
 #include "BaseTile.generated.h"
 
 UCLASS()
@@ -15,6 +16,8 @@ protected:
 		float m_Defense;
 	UPROPERTY(EditAnywhere)
 		float m_MovementModifier;
+	UPROPERTY(EditAnywhere)
+		AUnit* unit;
 public:	
 	// Sets default values for this actor's properties
 	ABaseTile();
@@ -26,8 +29,12 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* mesh;
 
-	
+	UFUNCTION(BlueprintCallable)
+		AUnit* GetUnit();
+	UFUNCTION(BlueprintCallable)
+		void SetUnit(AUnit* localUnit);
 };
